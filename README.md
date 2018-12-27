@@ -12,4 +12,4 @@ Assignment 5: Create a program that searches for every instance of a given strin
 
 Assignment 6: Implement a FIFO using spinlocks and semaphores.
 
-Assignment 7: Experiment with strace and write a simple program in pure assembly.
+Assignment 7: Experiment with strace and write a simple program in pure assembly.  Additionally, create a program that changes the 'nice' value of a certain process in order to observe the CPU share that process has relative to other processes.
