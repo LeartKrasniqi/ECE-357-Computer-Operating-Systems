@@ -1,3 +1,5 @@
+# This program does not include the _exit system call, which ultimately causes an error
+
 .global _start
 
 _start:
@@ -9,3 +11,5 @@ _start:
 
     	msg:
     	.ascii "Hello World...\n"
+        
+        
