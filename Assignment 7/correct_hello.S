@@ -11,7 +11,7 @@ _start:
 
     	mov $60, %rax
     	mov $122, %rdi
-    	syscall;
+    	syscall
 
     	msg:
     	.ascii "Hello World...\n"
