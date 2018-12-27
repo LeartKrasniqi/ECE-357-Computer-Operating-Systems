@@ -3,8 +3,6 @@
 #include "spinlock.h"
 #include "sem.h"
 #include "fifo.h"
-//#define N_WRITERS 8
-//#define N_ITER 5
 
 int main(int argc, char **argv)
 {
@@ -58,7 +56,6 @@ int main(int argc, char **argv)
 			{
 				data = j + getpid()*10000;
 				fifo_wr(f, data);
-				//fprintf(stdout, "VPN %d wrote %lu to fifo\n", i, data);
 				fprintf(w_file, "%lu\n", data);
 			}
 			return 0;
